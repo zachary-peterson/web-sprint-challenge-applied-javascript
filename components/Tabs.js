@@ -26,8 +26,7 @@ axios.get(tabsImport)
         tabsFinder.appendChild(eachTab);
     });
 })
-.catch(function(err){
-    debugger
+.catch(function(_){
     console.log('Error, check line 22')
 })
 
