@@ -68,8 +68,9 @@ function makeArtCard(object){
         artSpan.textContent = obj.authorName;
 
         artCardAdd.appendChild(artDiv);
+
+        artDiv.addEventListener('click', function(e){
+            console.log(artHL.textContent);
+        })
 });
 }
-// artDiv.addEventListener('click', function(e){
-//     console.log(target.artDiv);
-// })
