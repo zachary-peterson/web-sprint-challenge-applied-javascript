@@ -22,3 +22,25 @@
     <div class="right-button"> > </div>
   </div>
 */
+
+const imgFolder = 'src=/assets/carousel/'
+console.log(imgFolder);
+
+function caraCreate(object){
+  const carousel = document.createElement('div');
+  const lB = document.createElement('div');
+
+
+
+  const photoGallery = document.createElement('img');
+
+  const rB = document.createElement('div');
+
+  carousel.classList.add('carousel');
+  lB.classList.add('left-button');
+
+  rB.classList.add('right-button');
+
+  lB.textContent = "<";
+  rB.textContent = ">";
+}
